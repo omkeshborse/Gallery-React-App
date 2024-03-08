@@ -1,0 +1,16 @@
+.header {
+    padding: 1rem;
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.header ul li {
+    font-size: 2rem;
+    font-weight: 600;
+    flex: 1;
+}
