@@ -31,3 +31,16 @@
     margin-top: 2rem;
     font-weight: lighter;
 }
+
+
+@media screen and (min-width : 250px) and (max-width :500px) {
+    .image-detail-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-detail-wrapper .image-wrapper img {
+        width: 250px;
+        height: 250px;
+    }
+}
