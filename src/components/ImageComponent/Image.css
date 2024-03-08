@@ -15,8 +15,8 @@
     border-radius: 1rem;
 }
 
-@media screen and (min-width : 250px) and (max-width :320px) {
-    .image>img {
-        height: 200px;
+@media screen and (min-width : 250px) and (max-width :500px) {
+    .image a img {
+        height: 230px;
     }
 }
